@@ -1,0 +1,36 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.layout {
+    display: flex;
+    min-height: 100vh;
+}
+.sidebar h2 {
+    margin-bottom: 1.5rem;
+    font-size: 1.8rem;
+    color: #fff;
+}
+.sidebar nav a {
+display: block;
+color: #fff;
+text-decoration: none;
+margin-bottom: 1rem;
+font-weight: bold;
+}
+.sidebar nav a:hover {
+    text-decoration: underline;
+}
+.main-content {
+    flex: 1;
+    padding: 2rem;
+    background-color: #f9f9f9;
+}
+.main-content h1 {
+    margin-bottom: 1rem;
+    color: #333;
+}
+.main-content p {
+    font-size: 1.1rem;
+    color: #555;
+}
