@@ -180,3 +180,65 @@ body {
 .contact-form button:hover {
     background-color: blue;
 }
+.profile-pic {
+    width: 200px;
+    height: auto;
+    border-radius: 20%;
+    float: right;
+    margin: 2rem;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+/*----- Responsive Styles -----*/
+@media (max-width: 1024pc) {
+    .hero {
+        padding:2rem;
+        gap:1.5rem;
+    }
+    .hero-text h1 {
+        font-size: 2rem;
+    }
+}
+@media (max-width: 768px) {
+    .hero {
+        flex-direction: column;
+        text-align: center;
+    }
+    .profile-pic {
+        margin: 1rem auto;
+        width:200px;
+    }
+    .nav-links {
+        flex-direction: column;
+        gap: 1rem;
+        text-align: center;
+    }
+    .dropdown-menu {
+        position: static;
+        text-align: center;
+    }
+    .projects {
+        grid-template-columns: 1fr;
+        padding: 1rem;
+    }
+    .contact-form {
+        padding: 0 1rem;
+    }
+    .contact input,
+    .contact textarea {
+        font-size: 1rem;
+    }
+    .contact button {
+        width: 100%;
+    }
+}
+@media (max-width: 480px) {
+    .hero-text h1 {
+        font-size: 1.5rem;
+    }
+    .hero-text p {
+        font-size: 1rem;
+    }
+    .profile-pic {
+        width: 150px;
+    }
+}
