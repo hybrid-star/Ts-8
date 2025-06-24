@@ -4,25 +4,44 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact | Blessing Emmanuel</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <!--Navigation Bar-->
     <header>
-        <h1>Contact Me</h1>
-        <nav>
-            <a href="index.html">Home</a>
-            <a href="about.html">About</a>
-            <a href="projects.html">Projects</a>
-            <a href="contact.html">Contact</a>
+        <nav class="navbar">
+            <h1 class="logo">Blessing's Portfolio</h1>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li class="dropdown">
+                    <a href="#">More</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </li>
+            </ul>
         </nav>
     </header>
-    <main class="contact">
-        <section>
-            <h2>Let's Connect</h2>
-            <!--My contact info-->
-            <p>Phone:+234-7060427370</p>
-            <p>Email: <a href="mailto:emmynicole40@gmail.com">emmynicole40@gmail.com</a></p>
+    <!-- =====Contact Selection ==== -->
+     <section class="contact">
+        <h2>Contact Me</h2>
+        <p>I'd love to connect with you! Feel free to reach out through the form or directly using the info below.</p>
+        <!-- ===== Your Contact Details ===== -->
+         <div class="contact-details">
+            <p><strong>Email:</strong> <a href="mailto:emmynicole40@gmail.com">emmynicole40@gmail.com</a></p>
+            <p><strong>Phone:</strong> <a href="tel:+2347060427370">+234 706 042 7370</a></p>
+         </div>
+         <!-- ==== Contact Form ==== -->
+          <form action="https://formsubmit.co/emmynicole40@gmail.com" method="POST" class="contact-form">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+            <button type="submit" class="btn">Send Message</button>
+          </form>
         </section>
-    </main>
+    <br><br><br><br><br><br>
     <footer>
         <p>&copy; 2025 Blessing Emmanuel</p>
     </footer>

@@ -7,28 +7,29 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<div class="layout">
-    <!--Sidebar-->
-    <aside class="sidebar">
-    <h1>Welome to Blessing's Portfolio</h1>
-    <nav>
-        <a href="index.html">Home</a>
-        <a href="about.html">About</a>
-        <a href="projects.html">Projects</a>
-        <a href="contact.html">Contact</a>
-    </nav>
-    </aside>
-<!--Main Content-->
-<main class="main-content">
-    <section class="intro">
-        <h2>Hello, I'm Blessing</h2>
-        <p>I am a front-end developer and a graphic designer</p>
-        <a href="about.html" class="btn">About</a>
-        <a href="projects.html" class="btn">Projects</a>
-</main>
-</div>
-<footer>
-    <p>&copy; 2025 Blessing Emmanuel. All rights reserved.</p>
-</footer>
+            <!-- ====Navigation Bar=====-->
+    <header>
+<nav class="navbar">
+    <h1 class="logo">Blessing's Portfolio</h1>
+    <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li class="dropdown">
+            <a href="#">More</a>
+            <ul class="dropdown-menu">
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </li>
+    </ul>
+</nav>
+    </header>
+          <section class="hero">
+            <div class="hero-content">
+                <h2>Hey! I'm Blessing</h2>
+                <p>A passionate designer & a developer on a journey to create beautiful things online.</p>
+                <a href="projects.html" class="btn">See my projects</a>
+             </div>
+          </section>
 </body>
 </html>

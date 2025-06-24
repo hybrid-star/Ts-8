@@ -4,24 +4,42 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Projects | Blessing Emmanuel</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <!--Navbar (reuse from homepage)-->
     <header>
-        <h1>My Projects</h1>
-        <nav>
-            <a href="index.html">Home</a>
-            <a href="about.html">About</a>
-            <a href="projects.html">Projects</a>
-            <a href="contact">Contact</a>
+        <nav class="navbar">
+            <h1 class="logo">Blessing's Portfolio</h1>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li class="dropdown">
+                    <a href="#">More</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </li>
+            </ul>
         </nav>
     </header>
-    <main class="projects">
-    <h2>My Projects</h2>
-    <p>Coming soon! Stay tuned.</p>
-    <a href="contact.html" class="btn">Contact</a>
-    </main>
+    <!--Projects Section-->
+    <section class="projects">
+        <h2>Projects</h2>
+        <div class="project-card">
+            <h3>Project One</h3>
+            <p>This is my first ever project on HTML. I created my profile page,<br>where i talked about myself and my favorite things.</p>
+            <a href="https://hybrid-star.github.io/html.intro/html.intro" class="btn">Check it out</a>
+        </div>
+        <div class="project-card">
+            <h3>Project Two</h3>
+            <p>Here i created a contact form (using just HTML). Where you can collect personal information from individuals.</p>
+            <a href="https://hybrid-star.github.io/Form.html/Form.html" class="btn">Check it out</a>
+        </div>
+    </section><br><br><br><br><br><br>
     <footer>
-        <p>&copy; 2025 Blessing Emmanuel</p>
+        <p>&copy; 2025 Blessing Emmanuel. All Rights Reserved.</p>
     </footer>
 </body>
 </html>
