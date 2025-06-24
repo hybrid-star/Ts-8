@@ -71,17 +71,6 @@ body {
     font: 1.2rem;
     margin-bottom: 2rem;
 }
-.btn {
-    background-color: plum;
-    color: antiquewhite;
-    padding: 0.5rem 1rem;
-    text-decoration: none;
-    border-radius: 5px;
-    font-weight: bold;
-}
-.btn:hover {
-    background-color: blue;
-}
 .about {
     padding: 4rem 2rem;
     max-width: 800px;
